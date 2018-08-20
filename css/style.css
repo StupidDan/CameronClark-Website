@@ -26,16 +26,27 @@ a.navbar-item:hover {
 	background-color: transparent;
 }
 
+.banner {
+	background-image: url('../img/bg.png');
+	background-position: bottom;
+	padding: 10px;
+}
+
 .avatar {
 	width: 300px;
 	border-radius: 35%;
 	display: block;
 	margin: auto;
+	/* Code from ao554.com */
+	transition: 0.8s ease;
+	-webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 .avatar:hover {
-	transition: transform 1s;
-	transform: scale(1.25) rotate(360deg);
+	transform: rotate(360deg);
 }
 
 .typeface {
@@ -52,6 +63,10 @@ a.level-item:hover {
 .footer {
 	text-align: center;
 	width: 100%;
+}
+
+.fab {
+	color: white;
 }
 
 .fas {
