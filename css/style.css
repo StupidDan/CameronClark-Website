@@ -14,10 +14,6 @@ a:hover {
 	color: lightblue;
 }
 
-.navbar-menu {
-	background-color: #3161F7;
-}
-
 a.navbar-item {
 	color: white;
 }
@@ -26,14 +22,12 @@ a.navbar-item:hover {
 	background-color: transparent;
 }
 
-.banner {
-	background-image: url('../img/bg.png');
-	background-position: bottom;
-	padding: 10px;
+.navbar-burger .is-active p {
+	color: black;
 }
 
 .avatar {
-	width: 300px;
+	width: 400px;
 	border-radius: 35%;
 	display: block;
 	margin: auto;
