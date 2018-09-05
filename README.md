@@ -1,2 +1,2 @@
-# CameronClark-Website
-### The website for Cameron Clark.
+# Dtix-Website
+### The website for Dtix.
