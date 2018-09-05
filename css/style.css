@@ -2,8 +2,10 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background-color: hsl(0, 0%, 21%);
 	color: white;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .title, .subtitle, p {
@@ -22,13 +24,15 @@ a.navbar-item:hover {
 	background-color: transparent;
 }
 
-.navbar-burger .is-active p {
+.navbar-burger .is-active div {
 	color: black;
+}
+.navbar-menu {
+	background-color: transparent;
 }
 
 .avatar {
-	width: 400px;
-	border-radius: 35%;
+	width: 300px;
 	display: block;
 	margin: auto;
 	/* Code from ao554.com */
