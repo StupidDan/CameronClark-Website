@@ -86,3 +86,9 @@ a.level-item:hover {
 .media-content {
 	overflow-y: hidden;
 }
+
+.branding {
+	width: 300px;
+	display: block;
+	margin: auto;
+}
