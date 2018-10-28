@@ -2,8 +2,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: white;
-	background-image: url('../img/bg.png');
+	color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -16,10 +15,6 @@ a:hover {
 	color: lightblue;
 }
 
-a.navbar-item {
-	color: white;
-}
-
 a.navbar-item:hover {
 	background-color: transparent;
 }
@@ -27,24 +22,53 @@ a.navbar-item:hover {
 .navbar-burger .is-active div {
 	color: black;
 }
+
 .navbar-menu {
-	background-color: transparent;
+	background-color: white;
+}
+
+a.navbar-item p {
+	color: black;
 }
 
 .avatar {
 	width: 300px;
 	display: block;
 	margin: auto;
-	/* Code from ao554.com */
-	transition: 0.8s ease;
-	-webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
 }
 
-.avatar:hover {
-	transform: rotate(360deg);
+.banner {
+	background-color: #EA00D5;
+	padding: 30px;
+	/* Code from da532.com */
+	background: linear-gradient(321deg, #B14988, #61487E);
+    background-size: 400% 400%;
+    
+    -webkit-animation: fade 14s ease infinite;
+    -moz-animation: fade 14s ease infinite;
+    -o-animation: fade 14s ease infinite;
+    animation: fade 14s ease infinite;}
+    
+    @-webkit-keyframes fade {
+        0%{background-position: 0% 4%}
+        50%{background-position: 100% 97%}
+        100%{background-position: 0% 4%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position: 0% 4%}
+        50%{background-position: 100% 97%}
+        100%{background-position: 0% 4%}
+    }
+    @-o-keyframes fade {
+        0%{background-position: 0% 4%}
+        50%{background-position: 100% 97%}
+        100%{background-position: 0% 4%}
+    }
+    @keyframes fade {
+        0%{background-position: 0% 4%}
+        50%{background-position: 100% 97%}
+        100%{background-position: 0% 4%}
+    }
 }
 
 .typeface {
@@ -73,6 +97,12 @@ a.level-item:hover {
 
 .icon {
 	font-size: 40px;
+}
+
+.mini-icon {
+	width: 40px;
+	border-radius: 100%;
+	border: 1px solid black;
 }
 
 .box p {
