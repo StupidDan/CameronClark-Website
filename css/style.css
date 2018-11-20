@@ -38,37 +38,14 @@ a.navbar-item p {
 }
 
 .banner {
-	background-color: #EA00D5;
 	padding: 30px;
-	/* Code from da532.com */
-	background: linear-gradient(321deg, #B14988, #61487E);
-    background-size: 400% 400%;
-    
-    -webkit-animation: fade 14s ease infinite;
-    -moz-animation: fade 14s ease infinite;
-    -o-animation: fade 14s ease infinite;
-    animation: fade 14s ease infinite;}
-    
-    @-webkit-keyframes fade {
-        0%{background-position: 0% 4%}
-        50%{background-position: 100% 97%}
-        100%{background-position: 0% 4%}
-    }
-    @-moz-keyframes fade {
-        0%{background-position: 0% 4%}
-        50%{background-position: 100% 97%}
-        100%{background-position: 0% 4%}
-    }
-    @-o-keyframes fade {
-        0%{background-position: 0% 4%}
-        50%{background-position: 100% 97%}
-        100%{background-position: 0% 4%}
-    }
-    @keyframes fade {
-        0%{background-position: 0% 4%}
-        50%{background-position: 100% 97%}
-        100%{background-position: 0% 4%}
-    }
+    /* Code from samonyt.xyz */
+    background: linear-gradient(90deg, #B14988, #61487E);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
 }
 
 .typeface {
@@ -84,7 +61,12 @@ a.level-item:hover {
 
 .footer {
 	text-align: center;
-	width: 100%;
+	padding: 1em;
+	background: linear-gradient(90deg, #B14988, #61487E);
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
 }
 
 .fab {
@@ -103,6 +85,13 @@ a.level-item:hover {
 	width: 75px;
 	border-radius: 100%;
 	border: 1px solid black;
+}
+
+.me {
+	width: 250px;
+	border-radius: 25%;
+	margin: auto;
+	display: block;
 }
 
 .box p {
