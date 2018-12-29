@@ -24,15 +24,20 @@ a.navbar-item:hover {
 }
 
 .navbar-menu {
-	background-color: white;
+	/* Code from samonyt.xyz */
+    background: linear-gradient(360deg, #4A2F84, #211136);
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
 }
 
 a.navbar-item p {
-	color: black;
+	color: white;
 }
 
 .avatar {
-	width: 300px;
+	width: 300px;;
 	display: block;
 	margin: auto;
 }
@@ -40,12 +45,18 @@ a.navbar-item p {
 .banner {
 	padding: 30px;
     /* Code from samonyt.xyz */
-    background: linear-gradient(90deg, #B14988, #61487E);
-	background-size: 400% 400%;
+    background: linear-gradient(90deg, #4A2F84, #211136);
 	-webkit-animation: gradient 5s ease infinite;
 	-moz-animation: gradient 5s ease infinite;
 	-o-animation: gradient 5s ease infinite;
 	animation: gradient 5s ease infinite;
+}
+
+.main-section {
+	background-image: url("../img/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 .typeface {
@@ -59,22 +70,26 @@ a.level-item:hover {
 	transform: scale(1.25);
 }
 
+.footer-icon {
+	color: white !important;
+}
+
 .footer {
 	text-align: center;
 	padding: 1em;
-	background: linear-gradient(90deg, #B14988, #61487E);
+	background: linear-gradient(90deg, #4A2F84, #211136);
 	-webkit-animation: gradient 5s ease infinite;
 	-moz-animation: gradient 5s ease infinite;
 	-o-animation: gradient 5s ease infinite;
 	animation: gradient 5s ease infinite;
 }
 
-.fab {
-	color: white;
-}
-
 .fas {
 	font-size: 125px;
+}
+
+.fab {
+	color: white;
 }
 
 .icon {
@@ -89,9 +104,18 @@ a.level-item:hover {
 
 .me {
 	width: 250px;
-	border-radius: 25%;
+	border-radius: 100%;
 	margin: auto;
 	display: block;
+	transition: 0.8s ease;
+	-webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.me:hover {
+	transform: rotate(360deg);
 }
 
 .box p {
