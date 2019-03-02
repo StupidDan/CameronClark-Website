@@ -3,8 +3,34 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
+	/* Code from samonyt.xyz */
+    background: linear-gradient(360deg, #2A0C3E, #19156A);
+	-webkit-animation: fade 5s ease infinite;
+	-moz-animation: fade 5s ease infinite;
+	-o-animation: fade 5s ease infinite;
+	animation: fade 5s ease infinite;
+
+	/* Code from da532.com */
+	@-webkit-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-o-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @keyframes fade { 
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
 }
 
 .title, .subtitle, p {
@@ -24,12 +50,6 @@ a.navbar-item:hover {
 }
 
 .navbar-menu {
-	/* Code from samonyt.xyz */
-    background: linear-gradient(360deg, #4A2F84, #211136);
-	-webkit-animation: gradient 5s ease infinite;
-	-moz-animation: gradient 5s ease infinite;
-	-o-animation: gradient 5s ease infinite;
-	animation: gradient 5s ease infinite;
 }
 
 a.navbar-item p {
@@ -44,19 +64,10 @@ a.navbar-item p {
 
 .banner {
 	padding: 30px;
-    /* Code from samonyt.xyz */
-    background: linear-gradient(90deg, #4A2F84, #211136);
-	-webkit-animation: gradient 5s ease infinite;
-	-moz-animation: gradient 5s ease infinite;
-	-o-animation: gradient 5s ease infinite;
-	animation: gradient 5s ease infinite;
 }
 
 .main-section {
-	background-image: url("../img/bg.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
+	
 }
 
 .typeface {
@@ -77,18 +88,13 @@ a.level-item:hover {
 .footer {
 	text-align: center;
 	padding: 1em;
-	background: linear-gradient(90deg, #4A2F84, #211136);
-	-webkit-animation: gradient 5s ease infinite;
-	-moz-animation: gradient 5s ease infinite;
-	-o-animation: gradient 5s ease infinite;
-	animation: gradient 5s ease infinite;
 }
 
 .fas {
 	font-size: 125px;
 }
 
-.fab {
+.fab, .far {
 	color: white;
 }
 
@@ -105,6 +111,7 @@ a.level-item:hover {
 .me {
 	width: 250px;
 	border-radius: 100%;
+	border: 5px solid white;
 	margin: auto;
 	display: block;
 	transition: 0.8s ease;
