@@ -4,32 +4,28 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 	/* Code from samonyt.xyz */
-    background: linear-gradient(360deg, #2A0C3E, #19156A);
-	-webkit-animation: fade 5s ease infinite;
-	-moz-animation: fade 5s ease infinite;
-	-o-animation: fade 5s ease infinite;
-	animation: fade 5s ease infinite;
+    background: linear-gradient(100deg, #2F0C5A, #17167A);
+	-webkit-animation: fade 2s ease infinite;
+	-moz-animation: fade 2s ease infinite;
+	-o-animation: fade 2s ease infinite;
+	animation: fade 2s ease infinite;
 
 	/* Code from da532.com */
 	@-webkit-keyframes fade {
         0%{background-position:0% 4%}
-        50%{background-position:100% 97%}
-        100%{background-position:0% 4%}
+        100%{background-position:0% 100%}
     }
     @-moz-keyframes fade {
         0%{background-position:0% 4%}
-        50%{background-position:100% 97%}
-        100%{background-position:0% 4%}
+        100%{background-position:0% 100%}
     }
     @-o-keyframes fade {
         0%{background-position:0% 4%}
-        50%{background-position:100% 97%}
-        100%{background-position:0% 4%}
+        100%{background-position:0% 100%}
     }
     @keyframes fade { 
         0%{background-position:0% 4%}
-        50%{background-position:100% 97%}
-        100%{background-position:0% 4%}
+        100%{background-position:0% 100%}
     }
 }
 
@@ -49,11 +45,12 @@ a.navbar-item:hover {
 	color: black;
 }
 
-.navbar-menu {
+a.navbar-item p {
+	color: black;
 }
 
-a.navbar-item p {
-	color: white;
+.navbar-menu {
+	background-color: white;
 }
 
 .avatar {
@@ -62,12 +59,19 @@ a.navbar-item p {
 	margin: auto;
 }
 
+.discord-profile {
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+
 .banner {
 	padding: 30px;
 }
 
-.main-section {
-	
+.level-item i {
+	background-color: transparent;
+	color: white;
 }
 
 .typeface {
@@ -82,12 +86,18 @@ a.level-item:hover {
 }
 
 .footer-icon {
-	color: white !important;
+	color: black !important;
 }
 
 .footer {
 	text-align: center;
 	padding: 1em;
+	background-color: white;
+	color: black;
+}
+
+.footer p {
+	color: black !important;
 }
 
 .fas {
@@ -95,7 +105,7 @@ a.level-item:hover {
 }
 
 .fab, .far {
-	color: white;
+	color: black;
 }
 
 .icon {
@@ -106,6 +116,15 @@ a.level-item:hover {
 	width: 75px;
 	border-radius: 100%;
 	border: 1px solid black;
+}
+
+.white-section {
+	background-color: white;
+	padding: 50px;
+}
+
+.white-section p {
+	color: black;
 }
 
 .me {
