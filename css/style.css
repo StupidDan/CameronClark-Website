@@ -78,11 +78,15 @@ a.navbar-item p {
 	width: 250px;
 	margin: auto;
 	display: block;
+
 }
 
 a.level-item:hover {
-	transition: transform 1s ease;
-	transform: scale(1.25);
+	transform: rotate(360deg);
+}
+
+a.level-item {
+	transition: 0.8s ease;
 }
 
 .footer-icon {
