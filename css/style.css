@@ -63,6 +63,7 @@ a.navbar-item p {
 	width: 250px;
 	display: block;
 	margin: auto;
+	border-radius: 15%;
 }
 
 .banner {
@@ -81,14 +82,6 @@ a.navbar-item p {
 
 }
 
-a.level-item:hover {
-	transform: rotate(360deg);
-}
-
-a.level-item {
-	transition: 0.8s ease;
-}
-
 .footer-icon {
 	color: black !important;
 }
@@ -97,11 +90,34 @@ a.level-item {
 	text-align: center;
 	padding: 1em;
 	background-color: white;
-	color: black;
 }
 
-.footer p {
-	color: black !important;
+.background-section {
+	padding: 5px;
+	/* Code from samonyt.xyz */
+    background: linear-gradient(100deg, #2F0C5A, #17167A);
+	-webkit-animation: fade 2s ease infinite;
+	-moz-animation: fade 2s ease infinite;
+	-o-animation: fade 2s ease infinite;
+	animation: fade 2s ease infinite;
+
+	/* Code from da532.com */
+	@-webkit-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @-o-keyframes fade {
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
+    @keyframes fade { 
+        0%{background-position:0% 4%}
+        100%{background-position:0% 100%}
+    }
 }
 
 .fas {
