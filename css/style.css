@@ -3,29 +3,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: black;
-<<<<<<< HEAD
-	/* Code from samonyt.xyz */
-	background: url('../img/banner.png') center/cover;
-
-	/* Code from da532.com */
-	@-webkit-keyframes fade {
-        0%{background-position:0% 4%}
-        100%{background-position:0% 100%}
-    }
-    @-moz-keyframes fade {
-        0%{background-position:0% 4%}
-        100%{background-position:0% 100%}
-    }
-    @-o-keyframes fade {
-        0%{background-position:0% 4%}
-        100%{background-position:0% 100%}
-    }
-    @keyframes fade { 
-        0%{background-position:0% 4%}
-        100%{background-position:0% 100%}
-    }
-=======
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 }
 
 .title, .subtitle, p {
@@ -93,11 +70,7 @@ a.navbar-item p {
 
 .background-section {
 	padding: 15px 0;
-<<<<<<< HEAD
-	background: #651cae;
-=======
 	background: #1034cc;
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 	margin-top: 25px;
 }
 
@@ -167,20 +140,14 @@ a.navbar-item p {
 
 #banner {
 	padding: 200px 0;
-<<<<<<< HEAD
-=======
 	background: url('../img/banner.png') center/cover;
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 }
 .banner {
 	position: relative;
 }
-<<<<<<< HEAD
-=======
 .banner a {
 	color: #fff !important;
 }
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 .banner:before {
 	content: "";
 	position: absolute;
@@ -215,11 +182,7 @@ a.navbar-item p {
 	margin: 0 5px;
 }
 .main-section .socials a:hover .fab {
-<<<<<<< HEAD
-	color: #823ae0;
-=======
 	color: #1034cc;
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 }
 .main-section .socials a .fab {
 	color: #fff;
@@ -235,8 +198,6 @@ a.navbar-item p {
 }
 .white-section .title.is-4 {
 	margin-top: 25px;
-<<<<<<< HEAD
-=======
 }
 .white-section img {
     width: 256px;
@@ -245,5 +206,4 @@ a.navbar-item p {
 }
 .white-section img:hover {
     transform: rotate(360deg);
->>>>>>> 536b6c5fd3b4272f6c0abe12ffa12943f11416d1
 }
