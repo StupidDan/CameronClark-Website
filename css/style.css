@@ -70,7 +70,11 @@ a.navbar-item p {
 
 .background-section {
 	padding: 15px 0;
+<<<<<<< HEAD
 	background: #711fb8;
+=======
+	background: #1034cc;
+>>>>>>> 5a29746f8840f3ae98233cc93e0d23cf0094ed3a
 	margin-top: 25px;
 }
 
@@ -182,7 +186,11 @@ a.navbar-item p {
 	margin: 0 5px;
 }
 .main-section .socials a:hover .fab {
+<<<<<<< HEAD
 	color: #741FFF;
+=======
+	color: #1034cc;
+>>>>>>> 5a29746f8840f3ae98233cc93e0d23cf0094ed3a
 }
 .main-section .socials a .fab {
 	color: #fff;
@@ -206,4 +214,8 @@ a.navbar-item p {
 }
 .white-section img:hover {
     transform: rotate(360deg);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5a29746f8840f3ae98233cc93e0d23cf0094ed3a
