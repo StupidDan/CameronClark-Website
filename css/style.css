@@ -202,8 +202,8 @@ a.navbar-item p {
 .white-section img {
     width: 256px;
     border-radius: 50%;
-    transition: 0.6s ease;
+    transition: 0.2s ease;
 }
 .white-section img:hover {
-    transform: rotate(360deg);
+    border-radius:25%;
 }
