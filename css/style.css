@@ -140,8 +140,40 @@ a.navbar-item p {
 
 #banner {
 	padding: 200px 0;
-	background: url('../img/banner.png') center/cover;
+	background: linear-gradient(321deg, #1034cc, #3b0285 70%);
+    background-size: 400% 400%;
+
+    -webkit-animation: fade 14s ease infinite;
+    -moz-animation: fade 14s ease infinite;
+    -o-animation: fade 14s ease infinite;
+    animation: fade 14s ease infinite;
+	animation-delay: 1s;}
+
+    @-webkit-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-moz-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @-o-keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+    @keyframes fade {
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
 }
+
+
+
+
 .banner {
 	position: relative;
 }
