@@ -70,7 +70,7 @@ a.navbar-item p {
 
 .background-section {
 	padding: 15px 0;
-	background: #3F00AE;
+	background: #5e029b;
 	margin-top: 25px;
 }
 
@@ -140,7 +140,7 @@ a.navbar-item p {
 
 #banner {
 	padding: 200px 0;
-	background: linear-gradient(321deg, #1034cc, #3b0285 70%);
+	background: linear-gradient(321deg, #7602ac, #3b0285 40%);
     background-size: 400% 400%;
 
     -webkit-animation: fade 14s ease infinite;
