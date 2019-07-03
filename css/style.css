@@ -139,14 +139,14 @@ a.navbar-item p {
 
 
 #banner {
-	padding: 200px 0;
+	padding: 250px 0;
 	background: linear-gradient(321deg, #000000, #480d80 40%);
     background-size: 400% 400%;
 
-    -webkit-animation: fade 14s ease infinite;
-    -moz-animation: fade 14s ease infinite;
-    -o-animation: fade 14s ease infinite;
-    animation: fade 14s ease infinite;
+    -webkit-animation: fade 5s ease infinite;
+    -moz-animation: fade 5s ease infinite;
+    -o-animation: fade 5s ease infinite;
+    animation: fade 5s ease infinite;
 	animation-delay: 1s;}
 
     @-webkit-keyframes fade {
@@ -184,16 +184,6 @@ a.navbar-item p {
 	content: "";
 	position: absolute;
 	top: -5px;
-	left: 50%;
-	transform: translateX(-50%);
-	height: 2px;
-	width: 200px;
-	background: #fff;
-}
-.banner:after {
-	content: "";
-	position: absolute;
-	bottom: -5px;
 	left: 50%;
 	transform: translateX(-50%);
 	height: 2px;
