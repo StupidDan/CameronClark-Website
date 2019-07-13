@@ -69,8 +69,8 @@ a.navbar-item p {
 }
 
 .background-section {
-	padding: 35px 0;
-	background: #480d80;
+	padding: 45px 0;
+	background: #0055ff;
 	margin-top: 25px;
 }
 
@@ -139,15 +139,9 @@ a.navbar-item p {
 
 
 #banner {
-	padding: 250px 0;
-	background: linear-gradient(321deg, #000000, #480d80 40%);
-    background-size: 400% 400%;
-
-    -webkit-animation: fade 5s ease infinite;
-    -moz-animation: fade 5s ease infinite;
-    -o-animation: fade 5s ease infinite;
-    animation: fade 5s ease infinite;
-	animation-delay: 1s;}
+    padding: 300px 0;
+    background: url(../img/bg.png) center/cover;
+}
 
     @-webkit-keyframes fade {
         0%{background-position:0% 4%}
@@ -204,7 +198,7 @@ a.navbar-item p {
 	margin: 0 5px;
 }
 .main-section .socials a:hover .fab {
-	color: #6819cf;
+	color: #0055ff;
 }
 .main-section .socials a .fab {
 	color: #fff;
