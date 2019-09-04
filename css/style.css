@@ -70,7 +70,7 @@ a.navbar-item p {
 
 .background-section {
 	padding: 45px 0;
-	background: #2a2a2a;
+	background: #8400FF;
 	margin-top: 25px;
 }
 
@@ -140,7 +140,7 @@ a.navbar-item p {
 
 #banner {
     padding: 300px 0;
-	background: url(../img/grey.png) center/cover;
+	background: url(../img/bg.png) center/cover;
 }
 
     @-webkit-keyframes fade {
@@ -198,7 +198,7 @@ a.navbar-item p {
 	margin: 0 5px;
 }
 .main-section .socials a:hover .fab {
-	color: rgb(85, 85, 85)
+	color: rgb(132, 0, 255)
 }
 .main-section .socials a .fab {
 	color: #fff;
