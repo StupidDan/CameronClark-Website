@@ -70,7 +70,7 @@ a.navbar-item p {
 
 .background-section {
 	padding: 45px 0;
-	background: #2534c2;
+	background: rgb(121, 25, 212);
 	margin-top: 25px;
 }
 
@@ -198,7 +198,7 @@ a.navbar-item p {
 	margin: 0 5px;
 }
 .main-section .socials a:hover .fab {
-	color: rgb(212, 24, 165)
+	color: rgb(121, 24, 212)
 }
 .main-section .socials a .fab {
 	color: #fff;
