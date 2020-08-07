@@ -45,9 +45,11 @@ a.navbar-item p {
 }
 
 .avatar {
-	width: 300px;;
+	width: 300px;
 	display: block;
 	margin: auto;
+	border-radius: 100%;
+	border: 2px solid white;
 }
 
 .discord-profile {
@@ -156,6 +158,11 @@ a.navbar-item p {
 #banner {
     padding: 300px 0;
 	background: url(../img/bg.png) center/cover;
+}
+
+#xeon-banner {
+	padding: 300px 0;
+	background: url(../img/xeonbg.png) center/cover;
 }
 
     @-webkit-keyframes fade {
