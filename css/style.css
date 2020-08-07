@@ -44,12 +44,18 @@ a.navbar-item p {
 	background-color: white;
 }
 
-.avatar {
+.xeon-avatar {
 	width: 300px;
 	display: block;
 	margin: auto;
 	border-radius: 100%;
 	border: 2px solid white;
+}
+
+.avatar {
+	width: 300px;
+	display: block;
+	margin: auto;
 }
 
 .discord-profile {
