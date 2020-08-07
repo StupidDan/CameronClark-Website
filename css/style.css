@@ -220,8 +220,11 @@ a.navbar-item p {
 	height: 42px;
 	margin: 0 5px;
 }
+.main-section .grey-discord-icon a:hover .fab {
+	color: grey !important;
+}
 .main-section .socials a:hover .fab {
-	color: #928d8d
+	color: #eb3e3e
 }
 .main-section .socials a .fab {
 	color: #fff;
