@@ -53,9 +53,10 @@ a.navbar-item p {
 }
 
 .avatar {
-	width: 300px;
+	width: 500px;
 	display: block;
 	margin: auto;
+	position: static;
 }
 
 .discord-profile {
@@ -66,7 +67,7 @@ a.navbar-item p {
 }
 
 .banner {
-	padding: 30px;
+	padding: 10px;
 }
 
 .level-item i {
@@ -88,12 +89,12 @@ a.navbar-item p {
 .footer {
 	text-align: center;
 	padding: 1em;
-	background-color: #1C1C1C;
+	background-color: #151515;
 }
 
 .background-section {
 	padding: 45px 0;
-	background: #5148ff;
+	background: #3F3ADD;
 	margin-top: 25px;
 }
 
@@ -103,6 +104,7 @@ a.navbar-item p {
 
 .fab, .far {
 	color: rgb(0, 0, 0);
+
 }
 
 .icon {
@@ -116,7 +118,7 @@ a.navbar-item p {
 }
 
 .white-section {
-	background-color: rgb(28, 28, 28);
+	background-color: rgb(21, 21, 21);
 	padding: 50px;
 }
 
@@ -224,7 +226,7 @@ a.navbar-item p {
 	color: rgb(56, 56, 56) !important;
 }
 .main-section .socials a:hover .fab {
-	color: #5148ff
+	color: #3F3ADD
 }
 .main-section .socials a .fab {
 	color: #fff;
