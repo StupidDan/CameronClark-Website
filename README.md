@@ -16,4 +16,4 @@ Copyright 2021 Clarky
 
 - Clarky -Myself- (HTML, CSS, Structure, Design, XM Strategy Branding Design Implementation)
 - Daniel James Bee (Cloudflare/Domain Settings)
-- Ewam Haynes (Dtix Branding Implementation)
+- Ewan Haynes (Dtix Branding Implementation)
